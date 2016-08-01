@@ -1,0 +1,12 @@
+# Tests
+mock
+
+# Optional Packages
+Markdown
+BeautifulSoup4
+lxml
+typogrify
+
+# To perform release
+bumpr==0.2.0
+wheel
