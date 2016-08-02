@@ -10,4 +10,4 @@ date:   2016-08-02 21:12:51
 
 
 
-![test.jpg]({{ '/images/2016/08/02/test.jpg' | prepend: site.url }})
+![test.png]({{ '/images/2016/08/02/test.png' | prepend: site.url }})
