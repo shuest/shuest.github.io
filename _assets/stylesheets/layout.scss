@@ -126,6 +126,16 @@ p code {
     }
   }
 
+  .shou.tv.link {
+    display: inline-block;
+    margin-top: 32px;
+
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+}
 
 .layout.container {
   margin-left: 320px;
@@ -358,7 +368,9 @@ p code {
       }
     }
 
-    
+    p, .shou.tv.link {
+      display: none;
+    }
 
     .social.links {
       margin: 12px;
