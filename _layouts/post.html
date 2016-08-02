@@ -1,40 +1,67 @@
 ---
 layout: default
-comment: true
-keywords: Java blog,Post
 ---
-<div class="article article-post">
-    <h2 class="title">{{ page.title }}</h2>
-    <div class="info">
-        <span class="info-title"><i class="icon-calendar"></i> Published: </span>
-        <span class="info-date">{{ page.date | date_to_string }}</span>
-        <span class="info-title"><i class="icon-folder-open"></i> Category: </span>
-        <span class="info-link"><a href="{{ site.url }}/categories.html#{{ page.category }}-ref" >{{ page.category }}</a></span>
+<div class="post-content well">
+<article class="content">
+    <div class="post">{{ content }}</div>
+    <hr />
+    {% include share-page.html %}
+</article>
+<hr />
+{% assign hasSimilar = '' %}
+{% for post in site.posts  %}
+    {% assign postHasSimilar = false %}
+    {% for tag in post.categories %}
+        {% for thisTag in page.categories %}
+            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+                {% if hasSimilar.size == 0 %}
+                <div class="panel-body">
+                <h4>Related Posts</h4>
+                <ul>
+                {% endif %}
+                <li class="relatedPost">
+                    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                    {% if post.categories %}
+                        <small>(Categories: {% for category in post.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %})</small>
+                    {% endif %}
+                </li>
+                {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                {% assign postHasSimilar = true %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+    </ul>
     </div>
-    {{ content }}
-    <div class="bdsharebuttonbox">
-        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-        <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
-        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-        <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
-        <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
-        <a href="#" class="bds_mail" data-cmd="mail" title="分享到邮件分享"></a>
-        <a href="#" class="bds_more" data-cmd="more"></a>
-    </div>
-    <nav class="article-previous fn-clear">
-        {% if page.previous %}
-        <a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
-        {% endif %}
-        {% if page.next %}
-        <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
-        {% endif %}
-    </nav>
-    <div class="comment">
-        {% if site.disqus.config %}
-        <div id="disqus_thread"></div>
-        {% endif %}
-        {% if site.duoshuo.config %}
-        <div class="ds-thread" data-thread-key="{{ page.title }}"></div>
-        {% endif %}
-    </div>
+{% endif %}
+
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev pull-left" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next pull-right" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+  {% endif %}
+</div>
+
+
+<div class="disqus-comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+
+        var disqus_shortname = "{{ site.disqus_shortname }}";
+        var disqus_identifier = "{{ site.url }}_{{ page.title }}";
+        var disqus_title = "{{ page.title }}";
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    /* ]]> */
+    </script>
+</div>
 </div>
