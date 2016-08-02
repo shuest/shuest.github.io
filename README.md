@@ -1,57 +1,43 @@
-# Hexo
+# NexT
 
-[![Build Status](https://travis-ci.org/hexojs/hexo.svg?branch=master)](https://travis-ci.org/hexojs/hexo)  [![NPM version](https://badge.fury.io/js/hexo.svg)](http://badge.fury.io/js/hexo) [![Coverage Status](https://coveralls.io/repos/hexojs/hexo/badge.svg?branch=master)](https://coveralls.io/r/hexojs/hexo?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/hpx3lduqjj2t6uqq/branch/master?svg=true)](https://ci.appveyor.com/project/tommy351/hexo/branch/master)
+> 精于心，简于形
 
-A fast, simple & powerful blog framework, powered by [Node.js](http://nodejs.org).
+<a href="http://notes.iissnan.com" target="_blank">在线预览 Preview</a> | <a href="http://theme-next.iissnan.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
 
-## Features
+[![Join the chat at https://gitter.im/iissnan/hexo-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iissnan/hexo-theme-next?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-- Blazing fast generating
-- Support for GitHub Flavored Markdown and most Octopress plugins
-- One-command deploy to GitHub Pages, Heroku, etc.
-- Powerful plugin system
+![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
 
-## Installation
 
-``` bash
-$ npm install hexo-cli -g
-```
+## 浏览器支持 Browser support
 
-## Quick Start
+![Browser support](http://iissnan.com/nexus/next/browser-support.png)
 
-**Setup your blog**
 
-``` bash
-$ hexo init blog
-$ cd blog
-```
+## 贡献 Contributing
 
-**Start the server**
+接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的`Pull Request`。
 
-``` bash
-$ hexo server
-```
+Any types of contribution are welcome. Thanks.
 
-**Create a new post**
+## 开发 Development
 
-``` bash
-$ hexo new "Hello Hexo"
-```
+NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
 
-**Generate static files**
+NexT is built for easily use with elegant appearance. First things first, always keep things simple.
 
-``` bash
-$ hexo generate
-```
+## [开发历史 Changelog](https://github.com/iissnan/hexo-theme-next/wiki/Changelog)
 
-## More Information
+[![hexo-image]][hexo-url]
+[![bower-image]][bower-url]
+[![jquery-image]][jquery-url]
+[![velocity-image]][velocity-url]
 
-- Read the [documentation](https://hexo.io/)
-- Find solutions in [troubleshooting](https://hexo.io/docs/troubleshooting.html)
-- Join discussion on [Google Group](https://groups.google.com/group/hexo)
-- See the [plugin list](https://hexo.io/plugins/) and the [theme list](https://hexo.io/themes/) on wiki
-- Follow [@hexojs](https://twitter.com/hexojs) for latest news
-
-## License
-
-MIT
+[hexo-image]: http://img.shields.io/badge/Hexo-2.4+-2BAF2B.svg?style=flat-square
+[hexo-url]: http://hexo.io
+[bower-image]: http://img.shields.io/badge/Bower-*-2BAF2B.svg?style=flat-square
+[bower-url]: http://bower.io
+[jquery-image]: https://img.shields.io/badge/jquery-2.1-2BAF2B.svg?style=flat-square
+[jquery-url]: http://jquery.com/
+[velocity-image]: https://img.shields.io/badge/Velocity-1.2-2BAF2B.svg?style=flat-square
+[velocity-url]: http://julian.com/research/velocity/
