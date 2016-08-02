@@ -1,7 +1,7 @@
 # Site settings
-title: Cedric Fung (vecio)
-description: "Co-founder of Shou.TV"
-url: "https://vec.io"
+title: Shuest 
+description: "Shuest blog"
+
 
 # Build settings
 permalink: /posts/:title
@@ -19,9 +19,8 @@ assets:
     - _assets/vendor
 
 author:
-  full_name: Cedric Fung
-  username: vecio
-  email: cedric@vec.io
-  twitter: cedricfung
-  github: vecio
+  full_name: Shu Zhan
+  username: Shuest
+  email: 391077005@qq.com
+
   facebook: cedric.vec.io
