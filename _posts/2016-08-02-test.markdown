@@ -1,0 +1,13 @@
+---
+layout: post
+title: "test"
+date:   2016-08-02 21:12:51
+---
+
+**This is a test.**
+
+*Hello,world!*
+
+
+
+![test.png]({{ '/images/2016/08/02/test.png' | prepend: site.url }})
