@@ -1,63 +1,133 @@
-# Site Info
-title: Codinfox Lanyon
-tagline: 'A Jekyll theme based on Lanyon'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
-baseurl: "/lanyon"
-url: http://codinfox.github.io
-logo: '/public/logo.png'
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
 
-# Site configurations
-gems:
-  - jekyll-paginate
-markdown: kramdown
-kramdown:
-  input: GFM
-excerpt_separator: "<!-- more -->"
-sass:
-  style: compressed
-  sass_dir: _scss    
-paginate: 5
-paginate_path: '/blog/page:num'
-permalink: pretty
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
 
-version: 1.0.0
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
 
-# About/contact
-author:
-  name: Codinfox
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
-  contact:
-    linkedin:  https://www.linkedin.com/in/lizhihao
-    github:    https://github.com/codinfox
-    # facebook:  <hide>
-    twitter:   https://twitter.com/Li_Zhihao
-    weibo:     http://weibo.com/41173780
-    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
+# Conversion
+markdown:     kramdown
+highlighter:  rouge
+lsi:          false
+excerpt_separator: "\n\n"
 
-# Navigation (2nd level links supported)
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: 9leg
+description: java技术文章
+keywords: Java
+url: http://9leg.com
+feed: /atom.xml
+favicon: /images/shortcut.jpg
+
+#Nav config
 nav:
-  Home:           
-    - '/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
-  About:          
-    - '/about/'
-  Github Project: 
-    - 'http://codinfox.github.io/'
+  - text: 首页
+    url: /index.html
+  - text: 分类目录 
+    url: /categories.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 关于我
+    url: /about.html
+  - text: 友情链接
+    url: /links.html
 
-# Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+#Author config
+author:
+    name: zhujiajun
+    email: zhujiajun.me@gmail.com
+    imageLink: /images/header.jpg
+    simpleIntro: I Have a Dream
+    detailIntro:
+      <p>广告界的程序猿</p>
+      <p>主要使用Java,会一点Android,正在学习Scala[真是难学...].</p>
+      <p></p>
 
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/
+  - class: icon-facebook
+    url: http://facebook.com/
+  - class: icon-github-alt
+    url: https://github.com/zJiaJun/
+  - class: icon-twitter
+    url: http://twitter.com/
+  - class: icon-google-plus
+    url: https://plus.google.com/116595571760191938657/about
 
-# Puglins
-mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+#Links
+customLinks:
+  - item:
+    - text: 技术小黑屋
+      url: http://droidyue.com/
+    - text: Jekyll
+      url: http://jekyllrb.com
+    - text: Jekyll Theme
+      url: http://www.zhanxin.info/themes.html
+    message: Friends    
+  - item:
+    - text: Java Code Geeks
+      url: http://www.javacodegeeks.com/
+    - text: Web Developer
+      url: http://www.fromdev.com/
+    - text: BeginnersBook
+      url: http://beginnersbook.com/
+    - text: Mkyong
+      url: http://www.mkyong.com/
+    - text: Java By Nataraj
+      url: http://javabynataraj.blogspot.in/
+    message: About Java
 
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: false
+  id: UA-58146229-1
+
+#baidu tongji
+baiduTongji:
+  config: true
+  id: c12b560f0372d5995701449b9eac606c
+
+#comment config
+disqus:
+  config: false
+  id: piznblog
+
+duoshuo:
+  config: true
+  id: 9leg
+
+#baidu share config
+baiduShare:
+  config: true
+  
