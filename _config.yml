@@ -1,0 +1,25 @@
+# Site settings
+title: Cedric Fung (vecio)
+description: "huster
+							hcnp"
+
+# Build settings
+permalink: /posts/:title
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: [autolink, no_intra_emphasis, strikethrough, tables, lax_spacing, space_after_headers, superscript]
+
+assets:
+  cache: false
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/vendor
+
+author:
+  full_name: Shu Zhan
+  username: shuest
+  email: 391077005@qq.com
+  
