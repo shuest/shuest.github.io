@@ -2,9 +2,7 @@
 layout: post
 title: "fskafjaspifWeb Development Tricks and Traps from Building MeT and Repo.IO"
 date:   2016-08-02 20:26:57
----
-
-asdasas
+---sdfsd
 The last two weeks, I've been busy building a Markdown and $LaTeX$ editor, [MeT](https://met.repo.io), alongside an image uploading service, [IO](https://i.repo.io), to provide MeT the inline images insertion feature. Cause I've been always an mobile and server side developer, to develop these two rich client products involves me quite a lot efforts.
 
 I will update this post constantly to include all the common tricks and traps I met in developing Web client side products. Of course, this post is written with **MeT**.
