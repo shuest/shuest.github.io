@@ -7,7 +7,7 @@ title: "关于：About"
 
 Shu Zhan 
   
- *hust
+ hust
  
 network learning（hcna network challenge, hcnp r&s)
 
