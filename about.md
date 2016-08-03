@@ -6,7 +6,9 @@ title: "关于：About"
 ## Self introduction：
 
   ### Shu Zhan 
-  * hust
+  
+ * hust
+ 
 * network learning（hcna network challenge, hcnp r&s)
 
 
@@ -27,7 +29,7 @@ E-mail: 391077005@qq.com
 ## 其他流言
 * 单身狗；
 * 努力当大叔；
-* 想赚好多好多钱
+* 想赚好多好多钱：
 * [王贝宜][1]忠实粉；
 
 
