@@ -1,4 +1,2 @@
-Shuest My Blog
-==============
-
-Welcome to my blog!
+# This is my blog.
+## Welcomre 
