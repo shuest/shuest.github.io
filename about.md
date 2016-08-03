@@ -5,11 +5,11 @@ title: "关于：About"
 
 ## Self introduction：
 
-  ### Shu Zhan 
+Shu Zhan 
   
- * hust
+ *hust
  
-* network learning（hcna network challenge, hcnp r&s)
+network learning（hcna network challenge, hcnp r&s)
 
 
 ## Contact me
