@@ -1,26 +1,34 @@
-# Site settings
-title: Shuest 
-description: "Shuest blog"
+permalink: /blog/:year/:month/:title.html 
+include: ['.htaccess']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+highlights: pygments
+url: 
+cdn_url: 7u2t01.com1.z0.glb.clouddn.com
+lsi: false
+safe: true
+timezone: Asia/Shanghai
+auto: false 
+
+paginate: 8
+paginate_path: "page:num"
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
 
-# Build settings
-permalink: /posts/:title
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: [autolink, no_intra_emphasis, strikethrough, tables, lax_spacing, space_after_headers, superscript]
+# presonal config
+title: Shuest
+description: Link world with network
+author: Lippi.OuYang
+email: zhanshua@163.com
+github: Shuest
 
-assets:
-  cache: false
-  sources:
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/vendor
-
-author:
-  full_name: Shu Zhan
-  username: Shuest
-  email: 391077005@qq.com
-
-  facebook: cedric.vec.io
+config:
+  js_dir:
+  img_dir:
+  css_dir:
