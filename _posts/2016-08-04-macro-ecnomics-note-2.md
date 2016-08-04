@@ -1,6 +1,6 @@
 ---
 layout: post
-title: macro ecnomiics-note-2
+title: macro ecnomics-note-2
 category: finance
 tag: [macro ecnomics]
 ---
