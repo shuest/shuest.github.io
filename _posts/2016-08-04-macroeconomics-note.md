@@ -1,12 +1,9 @@
-
---
+---
 layout: post
 title: macro electronics-note-1
 category: finance
 tag: [macro eceltronics]
 ---
-
-# 笔记
 
 ## 宏观经济学的科学
 
