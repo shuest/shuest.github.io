@@ -1,6 +1,6 @@
 ---
 layout: post
-title: macro electronics-note-1
+title: macro ecnomics-note-1
 category: finance
 tag: [macro eceltronics]
 ---
