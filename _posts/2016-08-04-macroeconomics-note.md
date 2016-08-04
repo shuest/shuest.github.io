@@ -2,7 +2,7 @@
 layout: post
 title: macro ecnomics-note-1
 category: finance
-tag: [macro eceltronics]
+tag: [macro ecnomiics]
 ---
 
 ## 宏观经济学的科学

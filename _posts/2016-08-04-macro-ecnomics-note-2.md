@@ -2,7 +2,7 @@
 layout: post
 title: macro ecnomiics-note-2
 category: finance
-tag: [macro eceltronics]
+tag: [macro ecnomics]
 ---
 
 # 货币与通胀
