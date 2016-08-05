@@ -1,10 +1,10 @@
-
 ---
 layout: post
 title: macro ecnomics-note-3
 category: finance
 tag: [macro ecnomics]
 ---
+
 * （续）储蓄减少引起贸易赤字。
 *  由于国外财政扩张引起的世界利率上升引起贸易盈余。
 *  投资曲线向外移动（投资需求增加）引起贸易赤字。
