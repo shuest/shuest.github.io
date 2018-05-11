@@ -1,0 +1,543 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/328AD88C/file0204.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile0204.htm>
+<link rel=3DFile-List href=3D"file0204.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.5923in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:4.818in'>
+
+<p style=3D'margin:0in;font-size:20.0pt;color:#333333'><span style=3D'font-=
+family:
+"Calibri Light"'>102.</span><span style=3D'font-family:inherit'>&nbsp;</spa=
+n><span
+style=3D'font-family:"Calibri Light"'>Binary Tree Level Order Traversal</sp=
+an></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0409in;margin-left:0in;width:1.6118=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2018</span><span style=3D'font-family:"Microsoft YaHei"'>年</span=
+><span
+style=3D'font-family:Calibri'>5</span><span style=3D'font-family:"Microsoft=
+ YaHei"'>月</span><span
+style=3D'font-family:Calibri'>6</span><span style=3D'font-family:"Microsoft=
+ YaHei"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+10:02</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4763in;margin-left:0in;width:7.5923=
+in'>
+
+<p style=3D'margin-top:0pt;margin-bottom:7pt;font-family:微软雅黑;font-=
+size:18.0pt;
+color:#333333'>&nbsp;</p>
+
+<p style=3D'margin:0in'><a
+href=3D"https://leetcode.com/problems/binary-tree-level-order-traversal/des=
+cription/"><span
+style=3D'font-family:"Helvetica Neue";font-size:12.0pt;background:white'>De=
+scription</span></a><a
+href=3D"https://leetcode.com/problems/binary-tree-level-order-traversal/hin=
+ts/"><span
+style=3D'font-family:"Helvetica Neue";font-size:12.0pt'>Hints</span></a><a
+href=3D"https://leetcode.com/problems/binary-tree-level-order-traversal/sub=
+missions/"><span
+style=3D'font-family:"Helvetica Neue";font-size:12.0pt'>Submissions</span><=
+/a><a
+href=3D"https://leetcode.com/problems/binary-tree-level-order-traversal/dis=
+cuss/"><span
+style=3D'font-family:"Helvetica Neue";font-size:12.0pt'>Discuss</span></a><a
+href=3D"https://leetcode.com/problems/binary-tree-level-order-traversal/sol=
+ution/"><span
+style=3D'font-family:"Helvetica Neue";font-size:12.0pt'>Solution</span></a>=
+</p>
+
+<p style=3D'margin-top:7pt;margin-bottom:0pt'><a
+href=3D"https://leetcode.com/problems/random-one-question/"><span
+style=3D'font-family:"Helvetica Neue";font-size:10.5pt'>Pick One</span></a>=
+</p>
+
+<p style=3D'margin-top:7pt;margin-bottom:0pt;font-family:微软雅黑;font-=
+size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin-top:0pt;margin-bottom:7pt;font-family:"Helvetica Neue";
+font-size:10.5pt;color:#333333'>Given a binary tree, return the&nbsp;<span
+style=3D'font-style:italic'>level order</span>&nbsp;traversal of its nodes'
+values. (ie, from left to right, level by level).</p>
+
+<p style=3D'margin-top:0pt;margin-bottom:7pt;font-family:"Helvetica Neue";
+font-size:10.5pt;color:#333333'>For example:</p>
+
+<p style=3D'margin-top:0pt;margin-bottom:7pt'><span style=3D'font-family:"H=
+elvetica Neue";
+font-size:10.5pt;color:#333333'>Given binary tree&nbsp;</span><span
+style=3D'font-family:Menlo;font-size:9.45pt;color:#C7254E;background:#F9F2F=
+4'>[3,9,20,null,null,15,7]</span><span
+style=3D'font-family:"Helvetica Neue";font-size:10.5pt;color:#333333'>,</sp=
+an></p>
+
+<p style=3D'margin:0in;font-family:Menlo;font-size:9.75pt;color:#333333'><s=
+pan
+style=3D'background:whitesmoke'><span style=3D'mso-spacerun:yes'>   
+</span>3<br>
+<span style=3D'mso-spacerun:yes'>   </span>/ \<br>
+<span style=3D'mso-spacerun:yes'>  </span>9<span style=3D'mso-spacerun:yes=
+'> 
+</span>20<br>
+<span style=3D'mso-spacerun:yes'>    </span>/<span style=3D'mso-spacerun=
+:yes'> 
+</span>\<br>
+<span style=3D'mso-spacerun:yes'>   </span>15<span style=3D'mso-spacerun:=
+yes'>  
+</span>7</span></p>
+
+<p style=3D'margin-top:0pt;margin-bottom:7pt;font-family:"Helvetica Neue";
+font-size:10.5pt;color:#333333'>return its level order traversal as:</p>
+
+<p style=3D'margin:0in;font-family:Menlo;font-size:9.75pt;color:#333333'><s=
+pan
+style=3D'background:whitesmoke'>[<br>
+<span style=3D'mso-spacerun:yes'>  </span>[3],<br>
+<span style=3D'mso-spacerun:yes'>  </span>[9,20],<br>
+<span style=3D'mso-spacerun:yes'>  </span>[15,7]<br>
+]</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:9.0pt;color:#595959'><span style=3D'font-f=
+amily:
+宋体'>来自</span><span style=3D'font-family:Calibri'> &lt;</span><a
+href=3D"https://leetcode.com/problems/binary-tree-level-order-traversal/des=
+cription/"><span
+style=3D'font-family:Calibri'>https://leetcode.com/problems/binary-tree-lev=
+el-order-traversal/description/</span></a><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:微软雅黑;font-size:11.0pt'>对二叉=
+树层序遍历</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.3486in;margin-left:.55in;width:6.45=
+83in'>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 0pt'>
+ <tr>
+  <td style=3D'border-width:0pt;background-color:white;vertical-align:top;
+  width:.6868in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>1 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>2 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>3 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>4 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>5 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>6 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>7 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>8 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>9 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>10 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>11 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>12 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>13 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>14 </span></p>
+  <p style=3D'margin-top:4pt;margin-bottom:2pt;font-family:"Courier New";
+  font-size:10.0pt;color:#969696' lang=3Dla><span style=3D'background:white=
+'><span
+  style=3D'mso-spacerun:yes'>   </span>15 </span></p>
+  <p style=3D'margin-top:4pt;margin-bottom:2pt;font-family:"Courier New";
+  font-size:10.0pt;color:#969696' lang=3Dla><span style=3D'background:white=
+'><span
+  style=3D'mso-spacerun:yes'>   </span>16 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>17 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>18 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>19 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>20 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>21 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>22 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>23 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>24 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>25 </span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+969696'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>  
+  </span>26 </span></p>
+  </td>
+  <td style=3D'border-width:0pt;background-color:white;vertical-align:top;
+  width:5.677in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+323232'
+  lang=3Dla><span style=3D'background:white'><span
+  style=3D'mso-spacerun:yes'> </span></span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#00A150;background:white'>class</span><span style=3D'color=
+:#323232;
+  background:white'> Solution {</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#00A150;background:white'>public</span><span style=3D'colo=
+r:#323232;
+  background:white'>:</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'><span style=3D'mso-spacerun:yes'=
+>   
+  </span>vector&lt;vector&lt;</span><span style=3D'color:#A00050;background=
+:white'>int</span><span
+  style=3D'color:#323232;background:white'>&gt;&gt; </span><span
+  style=3D'color:#C73A69;background:white'>levelOrder</span><span
+  style=3D'color:#323232;background:white'>(TreeNode* root) {</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'><span style=3D'mso-spacerun:yes'=
+>       
+  </span>vector&lt;vector&lt;</span><span style=3D'color:#A00050;background=
+:white'>int</span><span
+  style=3D'color:#323232;background:white'>&gt; &gt; res;</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'color:#3B6AC8;background:white'>if</span><span style=3D'color:#3=
+23232;
+  background:white'>(root=3D=3DNULL)</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'color:#3B6AC8;background:white'>return</span><span style=3D'colo=
+r:#323232;
+  background:white'> res;</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;queue&lt;pa=
+ir&lt;TreeNode*,</span><span
+  style=3D'color:#A00050;background:white'>int</span><span style=3D'color:#=
+323232;
+  background:white'>&gt; &gt; q;</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q.</span><s=
+pan
+  style=3D'color:#C73A69;background:white'>push</span><span style=3D'color:=
+#323232;
+  background:white'>(</span><span style=3D'color:#C73A69;background:white'>=
+make_pair</span><span
+  style=3D'color:#323232;background:white'>(root,</span><span style=3D'colo=
+r:#1094A0;
+  background:white'>0</span><span style=3D'color:#323232;background:white'>=
+));</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'color:#3B6AC8;background:white'>while</span><span style=3D'color=
+:#323232;
+  background:white'>(!q.</span><span style=3D'color:#C73A69;background:whit=
+e'>empty</span><span
+  style=3D'color:#323232;background:white'>())</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+323232'
+  lang=3Dla><span style=3D'background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span><=
+/p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TreeNode
+  *node=3Dq.</span><span style=3D'color:#C73A69;background:white'>front</sp=
+an><span
+  style=3D'color:#323232;background:white'>().first;</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'color:#A00050;background:white'>int</span><span style=3D'color:#=
+323232;
+  background:white'> level=3Dq.</span><span style=3D'color:#C73A69;backgrou=
+nd:white'>front</span><span
+  style=3D'color:#323232;background:white'>().second;</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q.</span><span
+  style=3D'color:#C73A69;background:white'>pop</span><span style=3D'color:#=
+323232;
+  background:white'>();</span></p>
+  <p style=3D'margin:0in;font-size:10.0pt' lang=3Dla><span style=3D'font-fa=
+mily:"Courier New";
+  color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'font-family:"Courier New";color:#969696;background:white'>//</sp=
+an><span
+  style=3D'font-family:"Microsoft YaHei";color:#969696;background:white'>�=
+�始时，</span><span
+  style=3D'font-family:"Courier New";color:#969696;background:white'>size</=
+span><span
+  style=3D'font-family:"Microsoft YaHei";color:#969696;background:white'>�=
+�</span><span
+  style=3D'font-family:"Courier New";color:#969696;background:white'>0</spa=
+n><span
+  style=3D'font-family:"Microsoft YaHei";color:#969696;background:white'>�=
+�</span><span
+  style=3D'font-family:"Courier New";color:#969696;background:white'>level<=
+/span><span
+  style=3D'font-family:"Microsoft YaHei";color:#969696;background:white'>�=
+�是</span><span
+  style=3D'font-family:"Courier New";color:#969696;background:white'>0,res<=
+/span><span
+  style=3D'font-family:"Microsoft YaHei";color:#969696;background:white'>�=
+�空，要建一个在压进去</span></p>
+  <p style=3D'margin:0in;font-size:10.0pt' lang=3Dla><span style=3D'font-fa=
+mily:"Courier New";
+  color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'font-family:"Courier New";color:#3B6AC8;background:white'>if</sp=
+an><span
+  style=3D'font-family:"Courier New";color:#323232;background:white'>(level=
+=3D=3Dres.</span><span
+  style=3D'font-family:"Courier New";color:#C73A69;background:white'>size</=
+span><span
+  style=3D'font-family:"Courier New";color:#323232;background:white'>())</s=
+pan><span
+  style=3D'font-family:"Courier New";color:#969696;background:white'>//</sp=
+an><span
+  style=3D'font-family:"Microsoft YaHei";color:#969696;background:white'>�=
+�有进入队列</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;res.</span><span
+  style=3D'color:#C73A69;background:white'>push_back</span><span
+  style=3D'color:#323232;background:white'>(vector&lt;</span><span
+  style=3D'color:#A00050;background:white'>int</span><span style=3D'color:#=
+323232;
+  background:white'>&gt;());</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res[level].</span><span
+  style=3D'color:#C73A69;background:white'>push_back</span><span
+  style=3D'color:#323232;background:white'>(node-&gt;val);</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'color:#3B6AC8;background:white'>if</span><span style=3D'color:#3=
+23232;
+  background:white'>(node-&gt;left)</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;q.</span><span
+  style=3D'color:#C73A69;background:white'>push</span><span style=3D'color:=
+#323232;
+  background:white'>(</span><span style=3D'color:#C73A69;background:white'>=
+make_pair</span><span
+  style=3D'color:#323232;background:white'>(node-&gt;left,level+</span><span
+  style=3D'color:#1094A0;background:white'>1</span><span style=3D'color:#32=
+3232;
+  background:white'>));</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'color:#3B6AC8;background:white'>if</span><span style=3D'color:#3=
+23232;
+  background:white'>(node-&gt;right)</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;q.</span><span
+  style=3D'color:#C73A69;background:white'>push</span><span style=3D'color:=
+#323232;
+  background:white'>(</span><span style=3D'color:#C73A69;background:white'>=
+make_pair</span><span
+  style=3D'color:#323232;background:white'>(node-&gt;right,level+</span><sp=
+an
+  style=3D'color:#1094A0;background:white'>1</span><span style=3D'color:#32=
+3232;
+  background:white'>));</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+323232'
+  lang=3Dla><span style=3D'background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span><=
+/p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt' lang=
+=3Dla><span
+  style=3D'color:#323232;background:white'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'color:#3B6AC8;background:white'>return</span><span style=3D'colo=
+r:#323232;
+  background:white'> res;</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+323232'
+  lang=3Dla><span style=3D'background:white'><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>}</span></p>
+  <p style=3D'margin:0in;font-family:"Courier New";font-size:10.0pt;color:#=
+323232'
+  lang=3Dla><span style=3D'background:white'>};</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 Microsoft OneNote 2016 创建。</p>
+
+</div>
+
+</body>
+
+</html>
